@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nagai Vasantham Decorators - Premier wedding and event decoration services in Nagapattinam, Tamil Nadu. Specializing in luxury wedding stages, traditional flower decor, modern reception setups, balloon decorations, rentals, and festive events. Make your dream event a reality with our 30+ years of professional decorating experience.">
+    <meta name="keywords" content="wedding decorators Nagapattinam, event decoration Nagapattinam, stage decorators Tamil Nadu, balloon decoration Nagapattinam, flower decoration Tamil Nadu, marriage decorators Nagai, Nagai Vasantham Decorators, stage lighting, tent rental Nagapattinam">
+    <meta name="author" content="Nagai Vasantham Decorators">
+    <title>Nagai Vasantham Decorators | Premium Wedding & Event Decorators in Nagapattinam</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌸</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Outfit:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Top Loading Bar (Micro-animation) -->
+    <div id="loader-bar"></div>
+
+    <!-- Header / Sticky Navbar -->
+    <header class="navbar-header" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" id="nav-logo-link">
+                <span class="logo-accent">Nagai</span>
+                <span class="logo-main">Vasantham</span>
+                <span class="logo-sub">Decorators</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#services" class="nav-link">Our Services</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#why-choose-us" class="nav-link">Why Us</a></li>
+                    <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="nav-actions">
+                <a href="#contact" class="nav-btn-cta shimmer-btn">Book Now</a>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <canvas id="particles-canvas"></canvas>
+        <div class="hero-content">
+            <div class="logo-badge reveal-fade">
+                <i class="fa-solid fa-hotel gold-glow-icon"></i>
+            </div>
+            <h1 class="hero-title reveal-fade delay-1">Nagai Vasantham Decorators</h1>
+            <p class="hero-tagline"><span id="tagline-text"></span><span class="cursor">|</span></p>
+            <p class="hero-subtext reveal-fade delay-3">Crafting exquisite visual symphonies for weddings, receptions, engagements, and special events across Nagapattinam and Tamil Nadu.</p>
+            
+            <div class="hero-ctas reveal-fade delay-4">
+                <a href="#contact" class="btn btn-primary shimmer-btn"><i class="fa-solid fa-calendar-check"></i> Book Now</a>
+                <a href="https://wa.me/919865334050?text=Hi%20Nagai%20Vasantham%20Decorators%2C%20I%20would%20like%20to%20inquire%20about%20decoration%20services%20for%20an%20upcoming%20event." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp-cta"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                <a href="tel:+919865334050" class="btn btn-secondary-cta"><i class="fa-solid fa-phone"></i> Call Now</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span class="mouse-icon">
+                <span class="mouse-wheel"></span>
+            </span>
+            <span class="scroll-text">Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- Intro/Welcome Section -->
+    <section class="intro-section" id="intro">
+        <div class="section-container">
+            <div class="intro-box reveal-up">
+                <span class="section-subtitle">A Tradition of Visual Splendor</span>
+                <h2 class="intro-heading">Welcome to Elegant Celebrations</h2>
+                <div class="elegant-divider">
+                    <span class="line"></span>
+                    <i class="fa-solid fa-palette floral-icon"></i>
+                    <span class="line"></span>
+                </div>
+                <p class="intro-paragraph">At <strong>Nagai Vasantham Decorators</strong>, we believe every event is a blank canvas waiting to be transformed into a masterpiece. Located in the cultural heart of Nagapattinam, we have spent over three decades turning weddings, ceremonies, and milestone celebrations into breathtaking realities. From royal mandapams adorned with fresh temple flowers to contemporary LED-lit backdrops and playful birthday balloon scapes, we meticulously curate every details to match your dreams.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-section" id="about">
+        <div class="section-container">
+            <div class="about-wrapper">
+                <div class="about-image-column reveal-left">
+                    <div class="about-image-frame">
+                        <img src="our works/WhatsApp Image 2026-07-04 at 3.38.19 PM (1).jpeg" alt="Nagai Vasantham Decorators Elegant Flower Backdrop Decor" class="about-img" loading="lazy">
+                        <div class="frame-border"></div>
+                        <div class="badge-experience">
+                            <span class="badge-years">30+</span>
+                            <span class="badge-label">Years of Excellence</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content-column reveal-right">
+                    <span class="section-subtitle">Our Story</span>
+                    <h2 class="section-title">Crafting Lifelong Memories Since 1992</h2>
+                    <p class="about-text">Founded on the passion for festive aesthetics and Tamil Nadu's rich cultural wedding heritage, Nagai Vasantham Decorators has risen to become Nagapattinam's premier event design vendor.</p>
+                    <p class="about-text">Our philosophy is simple: **we listen, we design, we enchant**. We combine structural excellence with artistic design. Whether it is an intimate backyard engagement or a grand wedding reception with thousands of guests, our team manages everything from site layout, drapery, lighting architecture, floral designs, to furniture rental, leaving you free to savor every moment of your special day.</p>
+                    
+                    <div class="about-features">
+                        <div class="about-feature-item">
+                            <div class="feature-icon-container">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                            </div>
+                            <div class="feature-info">
+                                <h3>Bespoke Concepts</h3>
+                                <p>Custom structural and theme designs tailored exclusively to your vision and budget.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature-item">
+                            <div class="feature-icon-container">
+                                <i class="fa-solid fa-leaf"></i>
+                            </div>
+                            <div class="feature-info">
+                                <h3>Fresh & High-Quality Materials</h3>
+                                <p>Only the freshest local flowers, premium fabrics, and high-end rental furniture used.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <section class="services-section" id="services">
+        <div class="section-container">
+            <div class="section-header text-center reveal-up">
+                <span class="section-subtitle">What We Do</span>
+                <h2 class="section-title text-light">Our Specialized Decor Services</h2>
+                <div class="elegant-divider divider-light">
+                    <span class="line"></span>
+                    <i class="fa-solid fa-star floral-icon"></i>
+                    <span class="line"></span>
+                </div>
+                <p class="section-description text-light">We offer complete end-to-end event styling solutions, designing environments that trigger joy and capture details perfectly.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1: Wedding -->
+                <div class="service-card reveal-up">
+                    <div class="service-icon"><i class="fa-solid fa-ring"></i></div>
+                    <h3>Wedding Decoration</h3>
+                    <p>Grand stage backdrops, entrance pathways, mandapams, and comprehensive venue styling featuring royal aesthetics.</p>
+                </div>
+                <!-- Service 2: Reception -->
+                <div class="service-card reveal-up">
+                    <div class="service-icon"><i class="fa-solid fa-champagne-glasses"></i></div>
+                    <h3>Reception Decoration</h3>
+                    <p>Modern layouts, glamorous lighting, geometric structures, and elegant drapery to create a romantic visual evening.</p>
+                </div>
+                <!-- Service 3: Engagement -->
+                <div class="service-card reveal-up">
+                    <div class="service-icon"><i class="fa-solid fa-gem"></i></div>
+                    <h3>Engagement Decor</h3>
+                    <p>Warm, intimate setups with soft florals and pastel themes, providing a beautiful backdrop for your ring exchange.</p>
+                </div>
+                <!-- Service 4: Birthday -->
+                <div class="service-card reveal-up">
+                    <div class="service-icon"><i class="fa-solid fa-cake-candles"></i></div>
+                    <h3>Birthday Parties</h3>
+                    <p>Vibrant themes, customized banners, cartoon structures, and lively backdrops for children and adults alike.</p>
+                </div>
+                <!-- Service 5: Balloon -->
+                <div class="service-card reveal-up">
+                    <div class="service-icon"><i class="fa-solid fa-circle-dot"></i></div>
+                    <h3>Balloon Decoration</h3>
+                    <p>Creative balloon arches, columns, ceiling drops, and custom organic balloon wall installations in multiple colors.</p>
+                </div>
+                <!-- Service 6: Flower -->
+                <div class="service-card reveal-up">
+                    <div class="service-icon"><i class="fa-solid fa-spa"></i></div>
+                    <h3>Flower Decoration</h3>
+                    <p>Traditional jasmine, marigold, rose arrangements, and exotic floral designs for temple events and wedding stages.</p>
+                </div>
+                <!-- Service 7: LED/Lighting -->
+                <div class="service-card reveal-up">
+                    <div class="service-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                    <h3>LED & Lighting Setup</h3>
+                    <p>Intelligent lighting, fairy lights, warm ambient wash, spot lighting, and customized LED backdrop screens.</p>
+                </div>
+                <!-- Service 8: Chair/Table Rental -->
+                <div class="service-card reveal-up">
+                    <div class="service-icon"><i class="fa-solid fa-chair"></i></div>
+                    <h3>Chair & Table Rentals</h3>
+                    <p>Comfortable seating options, premium banquet chairs with covers, royal bride-groom sofas, and event tables.</p>
+                </div>
+                <!-- Service 9: Dining Setup -->
+                <div class="service-card reveal-up">
+                    <div class="service-icon"><i class="fa-solid fa-utensils"></i></div>
+                    <h3>Dining Setup Styling</h3>
+                    <p>Elegantly arranged dining halls, buffet counters, table spreads, and decorative partition dividers.</p>
+                </div>
+                <!-- Service 10: Shamiana/Tent -->
+                <div class="service-card reveal-up">
+                    <div class="service-icon"><i class="fa-solid fa-tent"></i></div>
+                    <h3>Shamiana & Tent Rental</h3>
+                    <p>High-quality waterproof tents, traditional shamianas, white canopies, and temporary ceiling structures.</p>
+                </div>
+                <!-- Service 11: Accessories -->
+                <div class="service-card reveal-up">
+                    <div class="service-icon"><i class="fa-solid fa-gifts"></i></div>
+                    <h3>Event Accessories</h3>
+                    <p>Traditional brass lamps, entry columns, red carpets, decorative umbrellas, signboards, and photo-booth props.</p>
+                </div>
+                <!-- Service 12: Air Cooler Rental -->
+                <div class="service-card reveal-up">
+                    <div class="service-icon"><i class="fa-solid fa-fan"></i></div>
+                    <h3>Air Cooler Rentals</h3>
+                    <p>High-capacity jumbo commercial air coolers and heavy-duty mist fans for marriage halls, tents, and outdoor functions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="section-container">
+            <div class="section-header text-center reveal-up">
+                <span class="section-subtitle">Our Masterpieces</span>
+                <h2 class="section-title">Visual Portfolio</h2>
+                <div class="elegant-divider">
+                    <span class="line"></span>
+                    <i class="fa-solid fa-camera floral-icon"></i>
+                    <span class="line"></span>
+                </div>
+                <p class="section-description">Take a glance at our real on-site works completed in Nagapattinam. Tap on images to explore in high resolution.</p>
+            </div>
+            
+            <!-- Gallery Filter Buttons -->
+            <div class="gallery-filters reveal-up">
+                <button class="filter-btn active" data-filter="all">All Works</button>
+                <button class="filter-btn" data-filter="wedding">Weddings</button>
+                <button class="filter-btn" data-filter="reception">Receptions</button>
+                <button class="filter-btn" data-filter="birthday">Birthdays & Balloon</button>
+                <button class="filter-btn" data-filter="rentals">Stage & Rentals</button>
+            </div>
+            
+            <!-- Gallery Masonry Grid -->
+            <div class="gallery-grid reveal-up">
+                <!-- Image 1 -->
+                <div class="gallery-item" data-category="wedding reception">
+                    <div class="gallery-inner">
+                        <img src="our works/WhatsApp Image 2026-07-04 at 3.38.18 PM.jpeg" alt="Luxury Royal Stage Decor by Nagai Vasantham Decorators" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="item-category">Wedding & Reception Stage</span>
+                            <h4 class="item-title">Royal Golden Mandapam</h4>
+                            <div class="zoom-icon"><i class="fa-solid fa-expand"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image 2 -->
+                <div class="gallery-item" data-category="wedding reception rentals">
+                    <div class="gallery-inner">
+                        <img src="our works/WhatsApp Image 2026-07-04 at 3.38.19 PM (1).jpeg" alt="Pink and White Floral Theme Backdrop" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="item-category">Weddings & Rentals</span>
+                            <h4 class="item-title">Elegance Floral Backdrop</h4>
+                            <div class="zoom-icon"><i class="fa-solid fa-expand"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image 3 -->
+                <div class="gallery-item" data-category="wedding rentals">
+                    <div class="gallery-inner">
+                        <img src="our works/WhatsApp Image 2026-07-04 at 3.38.19 PM.jpeg" alt="Traditional Flower Garland Stage Decor" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="item-category">Weddings & Stages</span>
+                            <h4 class="item-title">Traditional Temple Floral Decor</h4>
+                            <div class="zoom-icon"><i class="fa-solid fa-expand"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image 4 -->
+                <div class="gallery-item" data-category="reception wedding">
+                    <div class="gallery-inner">
+                        <img src="our works/WhatsApp Image 2026-07-04 at 3.38.20 PM.jpeg" alt="Grand LED Lit Reception Stage Design" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="item-category">Reception Lighting</span>
+                            <h4 class="item-title">Starlight LED Reception Canopy</h4>
+                            <div class="zoom-icon"><i class="fa-solid fa-expand"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image 5 -->
+                <div class="gallery-item" data-category="birthday">
+                    <div class="gallery-inner">
+                        <img src="our works/WhatsApp Image 2026-07-04 at 3.39.12 PM.jpeg" alt="Colorful Balloon Backdrop for Birthdays" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="item-category">Birthdays & Balloon Decor</span>
+                            <h4 class="item-title">Magical Rainbow Balloon Stage</h4>
+                            <div class="zoom-icon"><i class="fa-solid fa-expand"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image 6 -->
+                <div class="gallery-item" data-category="wedding rentals">
+                    <div class="gallery-inner">
+                        <img src="our works/WhatsApp Image 2026-07-04 at 3.39.13 PM.jpeg" alt="Traditional Marriage Entrance Archway Decor" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="item-category">Wedding Entrance</span>
+                            <h4 class="item-title">Vasantham Flower Gateway</h4>
+                            <div class="zoom-icon"><i class="fa-solid fa-expand"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image 7 -->
+                <div class="gallery-item" data-category="reception wedding rentals">
+                    <div class="gallery-inner">
+                        <img src="our works/WhatsApp Image 2026-07-25 at 4.56.33 PM.jpeg" alt="Glowing LED Angel Wings Photo Backdrop Decor by Nagai Vasantham Decorators" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="item-category">Reception & Photo Booth</span>
+                            <h4 class="item-title">Glowing Angel Wings Backdrop</h4>
+                            <div class="zoom-icon"><i class="fa-solid fa-expand"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image 8 -->
+                <div class="gallery-item" data-category="rentals">
+                    <div class="gallery-inner">
+                        <img src="Air cool/WhatsApp Image 2026-07-25 at 4.56.34 PM.jpeg" alt="High Capacity Commercial Air Coolers for Function Rentals" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="item-category">Stage & Rentals</span>
+                            <h4 class="item-title">Jumbo Commercial Air Coolers</h4>
+                            <div class="zoom-icon"><i class="fa-solid fa-expand"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us / Animated Stats -->
+    <section class="why-choose-us" id="why-choose-us">
+        <div class="section-container">
+            <div class="section-header text-center reveal-up">
+                <span class="section-subtitle">Why We Are Different</span>
+                <h2 class="section-title text-light">Commitment to Event Perfection</h2>
+                <div class="elegant-divider divider-light">
+                    <span class="line"></span>
+                    <i class="fa-solid fa-award floral-icon"></i>
+                    <span class="line"></span>
+                </div>
+                <p class="section-description text-light">We take pride in our attention to detail, execution speed, and high client satisfaction rates.</p>
+            </div>
+            
+            <!-- Statistics Count-up -->
+            <div class="stats-grid">
+                <div class="stat-card reveal-up">
+                    <div class="stat-icon"><i class="fa-solid fa-calendar-check"></i></div>
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-label">Events Completed</div>
+                </div>
+                <div class="stat-card reveal-up">
+                    <div class="stat-icon"><i class="fa-solid fa-heart"></i></div>
+                    <div class="stat-number" data-target="450">0</div>
+                    <div class="stat-label">Happy Families</div>
+                </div>
+                <div class="stat-card reveal-up">
+                    <div class="stat-icon"><i class="fa-solid fa-business-time"></i></div>
+                    <div class="stat-number" data-target="34">0</div>
+                    <div class="stat-label">Years of Experience</div>
+                </div>
+                <div class="stat-card reveal-up">
+                    <div class="stat-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                    <div class="stat-number" data-target="5">0</div>
+                    <div class="stat-label">Cities Covered</div>
+                </div>
+            </div>
+            
+            <!-- Key Value Props -->
+            <div class="props-grid">
+                <div class="prop-item reveal-left">
+                    <div class="prop-icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
+                    <div class="prop-info">
+                        <h4>Punctual Assembly</h4>
+                        <p>We complete all stage and lighting setups hours before your event schedule to ensure stress-free final touchups.</p>
+                    </div>
+                </div>
+                <div class="prop-item reveal-right">
+                    <div class="prop-icon"><i class="fa-solid fa-wallet"></i></div>
+                    <div class="prop-info">
+                        <h4>Transparent Pricing</h4>
+                        <p>No hidden charges. Flexible pricing packages tailored specifically to meet your budget expectations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials / Customer Reviews -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="section-container">
+            <div class="section-header text-center reveal-up">
+                <span class="section-subtitle">Client Reviews</span>
+                <h2 class="section-title">What Happy Families Say</h2>
+                <div class="elegant-divider">
+                    <span class="line"></span>
+                    <i class="fa-solid fa-quote-right floral-icon"></i>
+                    <span class="line"></span>
+                </div>
+                <p class="section-description">We measure our success by the smiles and gratitude of our clients.</p>
+            </div>
+            
+            <!-- Testimonial Slider -->
+            <div class="testimonial-slider-container reveal-up">
+                <div class="testimonial-wrapper">
+                    
+                    <!-- Slide 1 -->
+                    <div class="testimonial-slide active">
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="quote-text">"Nagai Vasantham Decorators transformed my daughter's wedding reception mandapam in Nagapattinam into a royal fairytale. The floral dome and the custom LED light setup were simply outstanding. Highly recommended for their professionalism and timely work."</p>
+                        <div class="client-details">
+                            <div class="client-avatar">
+                                <i class="fa-solid fa-user-circle"></i>
+                            </div>
+                            <div class="client-info">
+                                <span class="client-name">Karthikeyan Ramasamy</span>
+                                <span class="event-tag">Wedding Reception, Nagai</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 2 -->
+                    <div class="testimonial-slide">
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="quote-text">"We booked them for our son's first birthday party balloon decorations. The theme stage was beautiful, and kids loved the balloon entry archway and cartoon columns. Very cooperative staff and extremely budget-friendly."</p>
+                        <div class="client-details">
+                            <div class="client-avatar">
+                                <i class="fa-solid fa-user-circle"></i>
+                            </div>
+                            <div class="client-info">
+                                <span class="client-name">Meena Sundar</span>
+                                <span class="event-tag">1st Birthday Party, Nagapattinam</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 3 -->
+                    <div class="testimonial-slide">
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <p class="quote-text">"Great response time and execution. We requested traditional temple style flower arrangements on very short notice for an engagement ceremony. They managed everything elegantly. The flowers were fresh and smelling divine."</p>
+                        <div class="client-details">
+                            <div class="client-avatar">
+                                <i class="fa-solid fa-user-circle"></i>
+                            </div>
+                            <div class="client-info">
+                                <span class="client-name">Suresh Kumar</span>
+                                <span class="event-tag">Engagement Ceremony, Karaikal</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <!-- Slider Controls -->
+                <div class="slider-nav">
+                    <button class="slider-arrow prev-btn" id="prev-review" aria-label="Previous Review"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div class="slider-dots" id="slider-dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                    </div>
+                    <button class="slider-arrow next-btn" id="next-review" aria-label="Next Review"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact-section" id="contact">
+        <div class="section-container">
+            <div class="section-header text-center reveal-up">
+                <span class="section-subtitle">Get in Touch</span>
+                <h2 class="section-title">Schedule Your Booking Consultation</h2>
+                <div class="elegant-divider">
+                    <span class="line"></span>
+                    <i class="fa-solid fa-calendar-days floral-icon"></i>
+                    <span class="line"></span>
+                </div>
+                <p class="section-description">Ready to bring your dream event to life? Fill out the form or reach out via call/WhatsApp to lock your dates today.</p>
+            </div>
+            
+            <div class="contact-wrapper">
+                <!-- Contact Details Column -->
+                <div class="contact-info-column reveal-left">
+                    <div class="info-card">
+                        <h3>Contact Information</h3>
+                        <p class="info-desc">Feel free to contact us anytime. We will get back to you within 24 hours.</p>
+                        
+                        <div class="contact-info-list">
+                            <div class="contact-info-item">
+                                <div class="info-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                                <div class="info-content">
+                                    <h4>Office Address</h4>
+                                    <p>Nagai Vasantham Decorators,<br>Nagapattinam, Tamil Nadu - 611001</p>
+                                </div>
+                            </div>
+                            <div class="contact-info-item">
+                                <div class="info-icon"><i class="fa-solid fa-phone-volume"></i></div>
+                                <div class="info-content">
+                                    <h4>Call Us Now</h4>
+                                    <p><a href="tel:+919865334050" class="info-link">+91 98653 34050</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-info-item">
+                                <div class="info-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                                <div class="info-content">
+                                    <h4>WhatsApp Support</h4>
+                                    <p><a href="https://wa.me/919865334050" target="_blank" rel="noopener noreferrer" class="info-link">+91 98653 34050</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-info-item">
+                                <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="info-content">
+                                    <h4>Email Address</h4>
+                                    <p><a href="mailto:Nagaivasanthamdecorators@gmail.com" class="info-link">Nagaivasanthamdecorators@gmail.com</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-info-item">
+                                <div class="info-icon"><i class="fa-brands fa-instagram"></i></div>
+                                <div class="info-content">
+                                    <h4>Instagram Page</h4>
+                                    <p><a href="https://www.instagram.com/nagai_vasantham_decorators?igsh=aWNzZWJmZTVub3dx" target="_blank" rel="noopener noreferrer" class="info-link">@nagai_vasantham_decorators</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links-container">
+                            <h4>Follow Our Updates</h4>
+                            <div class="social-icons">
+                                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/nagai_vasantham_decorators?igsh=aWNzZWJmZTVub3dx" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form Column -->
+                <div class="contact-form-column reveal-right">
+                    <form class="booking-form" id="bookingForm" novalidate>
+                        <div class="form-title-area">
+                            <h3>Event Inquiry Form</h3>
+                            <p>Lock your auspicious event date now</p>
+                        </div>
+                        
+                        <div class="form-group-grid">
+                            <div class="form-group">
+                                <label for="form-name">Your Full Name <span class="required">*</span></label>
+                                <div class="input-wrapper">
+                                    <i class="fa-solid fa-user"></i>
+                                    <input type="text" id="form-name" name="name" placeholder="E.g., Vigneshwaran" required>
+                                </div>
+                                <span class="error-msg" id="name-error">Please enter your name.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-phone">Mobile Number <span class="required">*</span></label>
+                                <div class="input-wrapper">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <input type="tel" id="form-phone" name="phone" placeholder="E.g., 9865334050" pattern="^[0-9]{10}$" required>
+                                </div>
+                                <span class="error-msg" id="phone-error">Please enter a valid 10-digit mobile number.</span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group-grid">
+                            <div class="form-group">
+                                <label for="form-event-type">Select Event Type <span class="required">*</span></label>
+                                <div class="input-wrapper">
+                                    <i class="fa-solid fa-calendar-check"></i>
+                                    <select id="form-event-type" name="eventType" required>
+                                        <option value="" disabled selected>Select event...</option>
+                                        <option value="wedding">Wedding Ceremony</option>
+                                        <option value="reception">Reception Decor</option>
+                                        <option value="engagement">Engagement Decor</option>
+                                        <option value="birthday">Birthday Celebration</option>
+                                        <option value="balloon">Balloon Theme Decor</option>
+                                        <option value="rentals">Rentals / Shamiana / Stage</option>
+                                        <option value="air-cooler">Air Cooler & Fan Rentals</option>
+                                        <option value="other">Other Special Event</option>
+                                    </select>
+                                </div>
+                                <span class="error-msg" id="event-error">Please select an event type.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-date">Event Date <span class="required">*</span></label>
+                                <div class="input-wrapper">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <input type="date" id="form-date" name="eventDate" required>
+                                </div>
+                                <span class="error-msg" id="date-error">Please select an upcoming date.</span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="form-message">Describe Your Decoration Dream</label>
+                            <div class="input-wrapper text-area-wrapper">
+                                <i class="fa-solid fa-pen-nib"></i>
+                                <textarea id="form-message" name="message" rows="4" placeholder="Share event specifics, backdrop preferences, colors, flower types, etc..."></textarea>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-submit shimmer-btn" id="submitBtn">
+                            <span class="btn-text">Send Booking Request</span>
+                            <span class="loading-spinner"><i class="fa-solid fa-circle-notch fa-spin"></i></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Embedded Google Map -->
+            <div class="map-container reveal-up">
+                <h3>Our Location in Nagapattinam</h3>
+                <div class="map-iframe-wrapper">
+                    <!-- Embedded Google Map targeting Nagapattinam, Tamil Nadu -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31341.341490915998!2d79.81665487713426!3d10.767746401676657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5573fd07198a2b%3A0xe54e604f3db22312!2sNagapattinam%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section-container">
+            <div class="footer-grid">
+                <div class="footer-col-brand">
+                    <a href="#hero" class="footer-logo">
+                        <span class="logo-accent">Nagai</span>
+                        <span class="logo-main">Vasantham</span>
+                        <span class="logo-sub">Decorators</span>
+                    </a>
+                    <p class="footer-brand-text">Your dream wedding, birthday, or corporate decoration brought to reality with timeless elegance and royal structural setup.</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/nagai_vasantham_decorators?igsh=aWNzZWJmZTVub3dx" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#gallery">Photo Gallery</a></li>
+                        <li><a href="#why-choose-us">Why Choose Us</a></li>
+                        <li><a href="#testimonials">Reviews</a></li>
+                        <li><a href="#contact">Contact Consultation</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col-services">
+                    <h4>Popular Decoration Themes</h4>
+                    <ul>
+                        <li><a href="#services">Royal Stage Decoration</a></li>
+                        <li><a href="#services">LED Reception Lighting</a></li>
+                        <li><a href="#services">Traditional Mandapam setup</a></li>
+                        <li><a href="#services">Organic Balloon Arches</a></li>
+                        <li><a href="#services">Shamiana and Tents</a></li>
+                        <li><a href="#services">Premium Chair/Table Rental</a></li>
+                        <li><a href="#services">Jumbo Air Cooler Rentals</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nagai Vasantham Decorators. All Rights Reserved. Crafted with care in Nagapattinam, Tamil Nadu.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Gallery Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Gallery Lightbox Popup">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close Lightbox">&times;</button>
+        <button class="lightbox-arrow lightbox-prev" id="lightboxPrev" aria-label="Previous Image"><i class="fa-solid fa-chevron-left"></i></button>
+        
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightboxImg">
+            <div class="lightbox-caption">
+                <span id="lightboxCategory" class="light-category"></span>
+                <h4 id="lightboxTitle" class="light-title"></h4>
+            </div>
+        </div>
+        
+        <button class="lightbox-arrow lightbox-next" id="lightboxNext" aria-label="Next Image"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+    <!-- Floating Call-to-Action Buttons -->
+    <div class="floating-ctas">
+        <!-- Floating WhatsApp -->
+        <a href="https://wa.me/919865334050?text=Hi%20Nagai%20Vasantham%20Decorators%2C%20I%20would%20like%20to%20inquire%20about%20decorations." target="_blank" rel="noopener noreferrer" class="floating-btn whatsapp-float animate-pulse" aria-label="Chat on WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span class="floating-tooltip">Chat with Us</span>
+        </a>
+        <!-- Floating Call -->
+        <a href="tel:+919865334050" class="floating-btn call-float animate-pulse" aria-label="Call Us Now">
+            <i class="fa-solid fa-phone"></i>
+            <span class="floating-tooltip">Call Now</span>
+        </a>
+    </div>
+
+    <!-- Scroll-to-Top Button -->
+    <button class="scroll-to-top" id="scrollTopBtn" aria-label="Scroll to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Success Modal Notification -->
+    <div class="success-toast" id="successToast">
+        <div class="toast-content">
+            <div class="toast-icon"><i class="fa-solid fa-circle-check"></i></div>
+            <div class="toast-text">
+                <h4>Inquiry Sent Successfully!</h4>
+                <p>We will contact you shortly to plan your event decor.</p>
+            </div>
+            <button class="toast-close" id="toastClose">&times;</button>
+        </div>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
